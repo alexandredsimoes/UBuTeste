@@ -14,7 +14,7 @@ namespace TesteUBus.Models
         public int VeiculoId { get; set; }
         public Itinerario Itinerario { get; set; }        
         public int ItinerarioId { get; set; }
-        public Motorista Motorista { get; set; }
+        public Funcionario Motorista { get; set; }
         public int MotoristaId { get; set; }
 
     }
