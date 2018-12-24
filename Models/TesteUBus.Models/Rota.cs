@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace TesteUBus.Models
 {
-    public class TipoComplemento
+    public class Rota
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        public TipoExibicao TipoExibicao { get; set; }
-        public string DescricaoAdicional { get; set; }
+
     }
 }

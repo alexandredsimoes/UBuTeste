@@ -1,0 +1,16 @@
+USE [UBus]
+GO
+
+INSERT INTO [dbo].[Viagem]
+           ([Data]
+           ,[VeiculoId]
+           ,[ItinerarioId]
+           ,[MotoristaId])
+     VALUES
+           (@Data,
+           ,@VeiculoId,
+           ,@ItinerarioId,
+           ,@MotoristaId)
+GO
+
+

@@ -1,0 +1,14 @@
+USE [UBus]
+GO
+
+SELECT v.[Id]
+      ,v.[Data]
+      ,v.[VeiculoId]
+      ,v.[ItinerarioId]
+      ,v.[MotoristaId]
+	  ,f.[Nome] NomeMotorista
+  FROM [dbo].[Viagem] v
+  INNER JOIN [dbo].Funcionario f ON f.Id = v.MotoristaId
+GO
+
+

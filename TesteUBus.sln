@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteUBus", "TesteUBus\TesteUBus.csproj", "{C5E729FF-C693-4B50-A937-D4A6D3375CF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteUBus", "TesteUBus\TesteUBus.csproj", "{C5E729FF-C693-4B50-A937-D4A6D3375CF7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{061A4365-54B1-4494-A3D9-1841A9DDBA42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteUBus.Models", "Models\TesteUBus.Models\TesteUBus.Models.csproj", "{FEF16B6F-6777-45C8-B034-BC5FC856DCDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteUBus.Models", "Models\TesteUBus.Models\TesteUBus.Models.csproj", "{FEF16B6F-6777-45C8-B034-BC5FC856DCDA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{9BCAA8E8-887C-4A0B-A8BF-0E3583C3E57C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBus.WebAPI", "WebAPI\UBus.WebAPI\UBus.WebAPI.csproj", "{657FE814-A097-4447-A5DA-4858C50180A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UBus.WebAPI", "WebAPI\UBus.WebAPI\UBus.WebAPI.csproj", "{657FE814-A097-4447-A5DA-4858C50180A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", "{02D5F8A2-B92E-4D25-8A7B-9DF94A1E0012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBus.ViewModels", "ViewModels\UBus.ViewModels\UBus.ViewModels.csproj", "{777A0C2E-64EC-447F-B816-85D9B442B180}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UBus.ViewModels", "ViewModels\UBus.ViewModels\UBus.ViewModels.csproj", "{777A0C2E-64EC-447F-B816-85D9B442B180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{85D14040-2D30-47D9-849A-B6DEA0406376}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteUBus.Services", "Services\TesteUBus.Services\TesteUBus.Services.csproj", "{C06C4F32-2930-48BE-BCC1-C824CB0ABE51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,10 @@ Global
 		{777A0C2E-64EC-447F-B816-85D9B442B180}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{777A0C2E-64EC-447F-B816-85D9B442B180}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{777A0C2E-64EC-447F-B816-85D9B442B180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06C4F32-2930-48BE-BCC1-C824CB0ABE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06C4F32-2930-48BE-BCC1-C824CB0ABE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06C4F32-2930-48BE-BCC1-C824CB0ABE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06C4F32-2930-48BE-BCC1-C824CB0ABE51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +55,7 @@ Global
 		{FEF16B6F-6777-45C8-B034-BC5FC856DCDA} = {061A4365-54B1-4494-A3D9-1841A9DDBA42}
 		{657FE814-A097-4447-A5DA-4858C50180A0} = {9BCAA8E8-887C-4A0B-A8BF-0E3583C3E57C}
 		{777A0C2E-64EC-447F-B816-85D9B442B180} = {02D5F8A2-B92E-4D25-8A7B-9DF94A1E0012}
+		{C06C4F32-2930-48BE-BCC1-C824CB0ABE51} = {85D14040-2D30-47D9-849A-B6DEA0406376}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0C13B80-5379-4C49-B0C5-2114CB5924AF}

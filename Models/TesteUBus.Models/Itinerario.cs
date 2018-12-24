@@ -9,8 +9,11 @@ namespace TesteUBus.Models
     public class Itinerario
     {
         public int Id { get; set; }
-        public int Nome { get; set; }
-        public DateTime Hora { get; set; }
+        public string Nome { get; set; }
+        public DateTime HoraInicial { get; set; }
+        public DateTime HoraFinal { get; set; }
         public double Valor { get; set; }
+        public int RotaId { get; set; }
+        public Rota Rota { get; set; }
     }
 }

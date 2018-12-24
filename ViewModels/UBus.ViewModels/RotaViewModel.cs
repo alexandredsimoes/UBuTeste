@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TesteUBus.Models
+namespace UBus.ViewModels
 {
-    public class TipoComplemento
+    public class RotaViewModel
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        public TipoExibicao TipoExibicao { get; set; }
-        public string DescricaoAdicional { get; set; }
     }
 }

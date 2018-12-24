@@ -1,0 +1,16 @@
+USE [UBus]
+GO
+
+INSERT INTO [dbo].[Veiculo]
+           ([Tipo]
+           ,[MarcaId]
+           ,[Placa]
+           ,[ModeloId])
+     VALUES
+           (@Tipo,
+           ,@MarcaId,
+           ,@Placa,
+           ,@ModeloId)
+GO
+
+
